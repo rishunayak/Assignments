@@ -3,7 +3,7 @@ const express=require("express")
 
 const cors=require("cors")
 const connect = require("./Config/Config")
-const data=require("./Route/data.route")
+const data=require("./Routes/data.route")
 const app=express()
 
 app.use(express.json())
